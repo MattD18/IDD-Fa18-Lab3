@@ -54,11 +54,17 @@ soft- different places different resitance
  
 **a. Include your accelerometer read-out code in your write-up.**
 
+see attached
+
 ### 3. IR Proximity Sensor
 
 **a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**
 
+ambience increases with distance, proximity decreases with distance
+
 **b. Upload your merged code to your lab report repository and link to it here.**
+
+see code
 
 ## Optional. Graphic Display
 
