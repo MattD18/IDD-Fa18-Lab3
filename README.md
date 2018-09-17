@@ -38,10 +38,18 @@ logarithim
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 
+yes color
+
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
-**e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
+photo - 5k gives 760 -> 460
+short flex 10k gives 100-400
+soft 10k gives 400-1023
 
+**e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
+photo- linear
+flex- logarithmic
+soft- different places different resitance 
 ### 2. Accelerometer
  
 **a. Include your accelerometer read-out code in your write-up.**
