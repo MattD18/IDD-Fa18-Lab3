@@ -62,7 +62,7 @@ For the softpot, different areas of the softpot map to different resistances.
  
 **a. Include your accelerometer read-out code in your write-up.**
 
-see attached
+![Accelerometer code](https://github.com/MattD18/IDD-Fa18-Lab3/blob/master/acceldemo_mod.ino)
 
 ### 3. IR Proximity Sensor
 
@@ -72,7 +72,7 @@ The two metrics the sensor displays are ambience and proximity. Ambience increas
 
 **b. Upload your merged code to your lab report repository and link to it here.**
 
-see code
+![Sensor merge](https://github.com/MattD18/IDD-Fa18-Lab3/blob/master/sensor_merge.ino)
 
 ## Optional. Graphic Display
 
@@ -100,6 +100,7 @@ We can store 1024 byte-sized data samples.
 
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
+
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
