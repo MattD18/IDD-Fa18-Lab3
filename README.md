@@ -22,7 +22,9 @@ The ADC has 10 bits of resolution and we're using all 10.
 
 **How might you use this with only the parts in your kit? Show us your solution.**
 
-see video
+See solution below:
+
+https://youtu.be/XWPJQl72M_s
 
 ## Part C. Voltage Varying Sensors 
  
@@ -45,7 +47,6 @@ Yes, to get a full range of colors and full range of ouput voltages, I bucketed 
 For the photoresistor, using five 1000 Ohm resistors in series (5k Ohms total), gave me a volage range from 2.25V-3.71V, which is sufficient using my if/else structure. 
 
 For the flex sensor resistor, I used the 10k Ohm resistor, which gave me an analog reading range from 0.49V-1.96V, which is sufficient using my if/else structure.
-
 
 For the softpot, I used the 10k Ohm resistor, which gave me an analog reading range from 1.96V-5V, which is sufficient using my if/else structure.
 
