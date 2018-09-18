@@ -119,3 +119,7 @@ map(analog_input, 0, 1023, 0, 255)
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.**
+
+![The Invisible Composer](https://youtu.be/InB9brJNpso)
+
+The Invisible Composer let's you compose simple melodies out of thin air!
