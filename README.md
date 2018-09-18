@@ -116,10 +116,12 @@ map(analog_input, 0, 1023, 0, 255)
  
 **a. Insert here a copy of your final state diagram.**
 
+![Invisible Composer State Diagram](https://github.com/MattD18/IDD-Fa18-Lab3/blob/master/invisible_composer_state_diagram.pdf)
+
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.**
 
-![The Invisible Composer](https://youtu.be/InB9brJNpso)
+![The Invisible Composer](https://www.youtube.com/watch?v=InB9brJNpso)
 
 The Invisible Composer let's you compose simple melodies out of thin air!
