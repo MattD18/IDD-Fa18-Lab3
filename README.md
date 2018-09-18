@@ -87,11 +87,11 @@ Yes, since the potentiometer continously slides, state 2 can only be reached fro
 
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**
 
-loop functions are for switching between states, if code was in loop it would delay state transitions and the state acions would happen repeatedly not once
+The loop functions handle switching between states. If state actions occured in the loop functions they would occur repeatedly and delay the state transactions.
 
 **c. How many byte-sized data samples can you store on the Atmega328?**
 
-1024
+We can store 1024 byte-sized data samples.
 
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
 
