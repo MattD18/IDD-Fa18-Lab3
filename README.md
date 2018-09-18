@@ -96,13 +96,21 @@ We can store 1024 byte-sized data samples.
 
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
 
-
-
+We can convert analog data to be byte-sized using the map function like how it is used in the SwitchState2 file. Analog data from the I2C devices can also be converted using this function.
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
 
+put() allows us to store data bigger than a byte. In order to do this, put() takes the object we are storing and the address of the first byte to be used. It then takes up all subsequent bytes needed to store the oject.
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
+
+See attached code. The most significant line is the conversion to byte-data:
+
+```
+map(analog_input, 0, 1023, 0, 255)
+```
+
+![Print Conversion](https://github.com/MattD18/IDD-Fa18-Lab3/blob/master/analog_to_byte.ino)
 
 ### 2. Design your logger
  
