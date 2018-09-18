@@ -10,4 +10,4 @@
 4) Up with the birds. This alarm clock senses the light level in the room and plays an alarm to wake you up in the morning.
 
 
-![Idea Sketches](https://github.com/MattD18/IDD-Lab3/blob/master/IMG_2358.JPG)
+![Idea Sketches](https://github.com/MattD18/IDD-Fa18-Lab3/blob/master/Lab-Prep/IMG_2358.JPG)
